@@ -38,7 +38,7 @@ img.gif {
 }
 
 .gif-holder {
-	background-image: url('images/nature-scifi-background.jpg');
+	background-image: url('../images/nature-scifi-background.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }

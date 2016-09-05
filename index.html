@@ -2,35 +2,34 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Nature Zorak Mockup</title>
+	<title>Nature SciPher</title>
 	<link rel="stylesheet" href="css/main.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans|VT323" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Codystar" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:image" content="images/nature-scifi-firstframe.gif">
 </head>
 <body>
 
-	<header>
-		<div class="gif-holder">
-			<img src="images/nature-scifi-alpha.gif" class="gif" alt="">
+	<div class='container'>
+
+		<div class='lights'>
+			<img class='lights_image' src='images/nature-scifi.gif'/>
 		</div>
-		
-		<h1><a href="#">Welcome to ZORAK</a></h1>
+		<h1 class='main_title'>
+			<a href='index.html'>DISCOVER THE TRUE IMPACT OF YOUR RESEARCH</a>
+		</h1>
+		<div class='introduction'>
+			<p>I am SciPher<sup>*</sup> — an AI construct created in a secret basement by the mavens of <em>Nature</em>’s editorial team — and I can predict with 100% accuracy<sup>†</sup> what effect your research will have in 50 years’ time. My neurally networked learning algorithms have absorbed the entire <em>Nature</em> archive, along with the instruction manual for the photocopier and details of that <em>Star Trek</em> episode featuring the tribbles. If you dare to face the future, then feed me clear details of your research and I will reveal the destiny of your data.</p> 
+		</div>
 
-		<p>Simply give me a flavour of your research and my trans-temporal algorithms will determine its eventual effect. My advanced neural networks were trained on the <a href="#">Science Fiction special issue of your Nature magazine</a>. Also I saw the new Star Trek movie twice.</p>
+		<textarea class='abstract' name='abstract'>Enter a sentence that accurately describes your research project here</textarea>
+		<button class='button' onClick='analyzeText();'>Submit your text to SciPher for analysis</button>
 
-	</header>
-
-	<article>
-
-		<p id="working"></p>
-
-		<p id="working_complete">Prognostication complete. Most likely scenario determined:</p>
-		
-		<form>
-			<textarea name="" id="textarea" cols="30" rows="10"></textarea>
-			<button onclick="return false;" id="button">Submit</button>
-		</form>
-	</article>
+		<div class='footnote'>
+			<p><sup>*</sup>Scientifically Calculated Impact Predictions for Humanity’s Experimental Results</p> 
+			<p><sup>†</sup>Please bear in mind that in this context, accuracy, like time, is a relative concept — and we’re all likely to have trouble with our relatives at some point or another.</p>
+		</div>
+	</div>
 	
 </body>
 

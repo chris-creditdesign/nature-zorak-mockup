@@ -1,5 +1,5 @@
 body {
-	margin: 10px 0;
+	margin: 15px 0;
 	background-color: #000;
 	background-image: url(../images/grid.png);
 	color: #ffffff;
@@ -18,10 +18,18 @@ body {
 
 h1 {
 	font-family: 'Codystar', monospace;
-	font-size: 2.4em;
+	font-size: 5.4em;
     text-shadow: 0px 0px 30px #02bfc1;
-    margin: 30px 10%;
+    margin: 30px 10% 0;
     text-align: center;
+    letter-spacing: 0.3em;
+}
+
+h2 {
+	font-size: 1.4em;
+	text-align: center;
+	margin: 0;
+	letter-spacing: 0.06em; 
 }
 
 a {
@@ -39,11 +47,15 @@ a:hover {
 
 .introduction {
 	letter-spacing: 0.06em;
-    line-height: 1.4em;
+	line-height: 1.4em;
 }
 
 .footnote {
 	font-size: 0.8em;
+}
+
+.logos img {
+	vertical-align: top;
 }
 
 /* Prevent superscript affecting line-height */
@@ -117,6 +129,15 @@ textarea:focus {
 
 /* media queries */
 
+@media (max-width: 900px) { 
+	h1 {
+		font-size: 4.4em;
+		margin: 30px 0 10px;
+	}
+
+}
+
+
 @media (max-width: 600px) {
 	body {
 		font-size: 16px;
@@ -129,8 +150,12 @@ textarea:focus {
 	}
 
 	h1 {
-		font-size: 2em;
-		margin: 30px 0;
+		font-size: 2.6em;
+		margin: 30px 0 10px;
+	}
+
+	.introduction {
+		line-height: 1.5em;
 	}
 }
 

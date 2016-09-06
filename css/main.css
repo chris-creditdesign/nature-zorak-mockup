@@ -112,19 +112,19 @@ textarea:focus {
 /* colour the placeholder text */ 
 
 textarea::-webkit-input-placeholder {
-	color: #000;
+	color: #444;
 }
 
 textarea:-moz-placeholder { /* Firefox 18- */
-	color: #000; 
+	color: #444; 
 }
 
 textarea::-moz-placeholder {  /* Firefox 19+ */
-	color: #000;
+	color: #444;
 }
 
 textarea:-ms-input-placeholder {  
-	color: #000;
+	color: #444;
 }
 
 .button {

@@ -59,10 +59,6 @@ a:hover {
 	font-size: 0.8em;
 }
 
-.logos img {
-	vertical-align: top;
-}
-
 /* Prevent superscript affecting line-height */
 
 sup, sub {
@@ -179,6 +175,11 @@ textarea:-ms-input-placeholder {
 
 	h2 {
 		font-size: 1.2em;
+	}
+
+	.logos img {
+		display: block;
+		margin-top: 15px;
 	}
 }
 
